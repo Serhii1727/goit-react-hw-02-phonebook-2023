@@ -16,7 +16,13 @@
   margin-bottom: 20px;
 }
 
+.label {
+  display: flex;
+  flex-direction: column;
+}
+
 .input {
+  margin-top: 5px;
   margin-bottom: 20px;
   width: 200px;
 }
