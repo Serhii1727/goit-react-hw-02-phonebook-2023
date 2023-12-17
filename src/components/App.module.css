@@ -1,0 +1,31 @@
+.container {
+  margin-left: 50px;
+  padding-top: 50px;
+  width: 400px;
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border: 1px solid black;
+  margin-bottom: 20px;
+}
+
+.input {
+  margin-bottom: 20px;
+  width: 200px;
+}
+
+.button {
+  width: 100px;
+  cursor: pointer;
+  border: none;
+  background-color: blueviolet;
+  color: aliceblue;
+  border-radius: 5px;
+}
