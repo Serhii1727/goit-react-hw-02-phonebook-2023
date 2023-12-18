@@ -34,7 +34,7 @@ export default class ContactForm extends Component {
     return (
       <form className={css.form} onSubmit={this.addContact}>
         <label className={css.label}>
-          <span>Name</span>
+          <span className={css.label__name}>Name</span>
           <input
             onChange={this.handleChangeInput}
             className={css.input}
@@ -47,7 +47,7 @@ export default class ContactForm extends Component {
           />
         </label>
         <label className={css.label}>
-          <span>Number</span>
+          <span className={css.label__name}>Number</span>
           <input
             onChange={this.handleChangeInput}
             className={css.input}
